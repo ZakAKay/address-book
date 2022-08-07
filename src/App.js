@@ -1,8 +1,10 @@
-function App() {
-  return 
-  <div>
+import React from "react";
+import AddressBook from "./Components/AddressBook";
 
-  </div>;
+export default function App() {
+  return (
+    <div>
+      <AddressBook />
+    </div>
+  );
 }
-
-export default App;
